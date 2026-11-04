@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../controllers/auth_controller.dart';
 import '../controllers/notification_controller.dart';
 import '../controllers/bitacora_controller.dart';
-import '../controllers/qr_controller.dart';
+import '../controllers/cu017_qr/qr_controller.dart';
 import '../controllers/transport_controller.dart';
 import '../controllers/purchase_controller.dart';
 import '../controllers/trace_controller.dart';
