@@ -8,9 +8,9 @@ class Settings(BaseSettings):
     APP_NAME: str = "Sistema de Trazabilidad"
     ENVIRONMENT: str = "development"
 
-    DATABASE_URL: str = "postgresql+psycopg://postgres:postgres@localhost:5432/trazabilidad"
+    DATABASE_URL: str = "postgresql+psycopg://postgres.dwugbypxxzfzzhetdcov:BlockChain123.@aws-0-us-west-2.pooler.supabase.com:6543/postgres"
 
-    JWT_SECRET: str
+    JWT_SECRET: str = "c948a31e8bf4b22c7104b2a8d5f3089408b07e7ef2a42a02d2bc27c62b9a71fd"
     JWT_ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 15
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
