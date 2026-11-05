@@ -7,7 +7,7 @@ from app.packages.p1_seguridad.controllers.cu002_usuarios.user_controller import
 from app.packages.p1_seguridad.controllers.cu003_roles_permisos.role_controller import router as role_router
 from app.packages.p1_seguridad.controllers.cu005_bitacora.bitacora_controller import router as audit_router
 from app.packages.p1_seguridad.controllers.cu036_planes.plan_controller import router as plan_router
-from app.packages.p1_seguridad.controllers.cu036_planes.subscription_controller import router as subscription_router
+from app.packages.p1_seguridad.controllers.cu037_suscripciones.subscription_controller import router as subscription_router
 
 router = APIRouter()
 
